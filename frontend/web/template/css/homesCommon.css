@@ -1,0 +1,56 @@
+.homesFindWrapper
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: block;
+    padding: 10px;
+    box-shadow: 0px 0px 16px #0b070733;
+    border-radius: 5px;
+}
+.homes_input
+{
+    padding: 10px;
+    box-shadow: none;
+    border: none;
+    font-size: 16px;
+    color: #666;
+}
+.homes_findBtn
+{
+    display: block;
+    padding: 16px;
+    box-shadow: 0px 0px 0px #555;
+    border-radius: 0px 5px 5px 0px;
+    height: 100%;
+    width: 150px;
+    margin: -11px;
+    border: none;
+    background-color: #0d81c2;
+    color: #fff;
+}
+.homes_bigSugg
+{
+    font-family: proxima-semiBold;
+    text-decoration: none;
+    color:  #007fbf !important;
+    font-size: 14px;
+}
+.homes_litSugg
+{
+    font-family: proxima-semiBold;
+    color: #ccc;
+    border: none;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 10px 0 0;
+    position: relative;
+    transition: all .5s;
+}
+.homes_spsSugg
+{
+    text-decoration: none;
+    color:  #555;
+    font-size: 10px;
+}

@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+    RewriteEngine On
+</IfModule>
+
+<IfModule mod_rewrite.c>
+#    RewriteCond %{HTTP_HOST} ^codentheme.com
+#    RewriteRule (.*) http://www.codentheme.com/$1 [R=301,L]
+#    RewriteCond %{HTTP_HOST} ^192.186.234.35
+#    RewriteCond %{HTTP_USER_AGENT} libwww-perl.*
+#    RewriteRule .* ? [F,L]
+#    RewriteRule (.*) http://www.codentheme.com/$1 [R=301,L]
+    RewriteCond %{REQUEST_URI} ^/.*
+    RewriteRule ^(.+)?$ frontend/web/$1
+</IfModule>
+
